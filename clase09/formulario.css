@@ -1,0 +1,62 @@
+.formulario{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    width: 25%;   
+}
+.input{
+    padding: 5px;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    outline: none;
+}
+::placeholder{
+    color: red;
+    opacity: 0.5;
+}
+.input input:focus{
+    border: none;
+}
+.input input:active{
+    border-bottom: 3px solid grey;
+}
+.input input:invalid{
+    color: white;
+    background-color: red;
+}
+.input input:valid{
+    color: black;
+}
+.submit button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.icon-input-left{
+    position: absolute;
+    left:15px;
+    bottom: 15px;
+}
+
+.icon-input-right{
+    position:absolute ;
+    right:15px;
+    bottom: 15px;
+}
+.input.left{
+    padding-left: 30px;
+}
+.input.right{
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,39 @@
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+[class*="col-"]{
+    background-color: crimson;
+    border: 2px darkcyan dotted;
+    height: 150px;
+}
+
+
+/*media query
+la regla @media
+@media condicion {
+}
+@media (condicion) and (condicion){
+}
+diferentes tipos de medios
+all =todos los dispositivos 
+screen= monitores pantallas
+print= medios de impresion*/
+/*tipos de caracteristicas en la codicion
+width
+min.width
+max-width
+orientacion -> landscape  portrait
+extra small maxwidh - 600px
+smal min-width = 600px
+mediun min-width = 768px
+large min-width = 993px---laptop destokp
+extra large min-width =1200px*/
